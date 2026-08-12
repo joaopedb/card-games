@@ -1,0 +1,165 @@
+{
+  "tema": "Street Fighter",
+  "cartas": [
+    {
+      "id": "1A", "nome": "Ryu",
+      "atributos": { "forca": 76, "saude": 74, "mobilidade": 68, "tecnicas": 81, "alcance": 67 },
+      "super_trunfo": false
+    },
+    {
+      "id": "1B", "nome": "Ken",
+      "atributos": { "forca": 72, "saude": 73, "mobilidade": 82, "tecnicas": 76, "alcance": 63 },
+      "super_trunfo": false
+    },
+    {
+      "id": "1C", "nome": "Chun-Li",
+      "atributos": { "forca": 61, "saude": 69, "mobilidade": 93, "tecnicas": 84, "alcance": 72 },
+      "super_trunfo": false
+    },
+    {
+      "id": "1D", "nome": "Guile",
+      "atributos": { "forca": 77, "saude": 81, "mobilidade": 52, "tecnicas": 79, "alcance": 76 },
+      "super_trunfo": false
+    },
+    {
+      "id": "2A", "nome": "Blanka",
+      "atributos": { "forca": 82, "saude": 84, "mobilidade": 87, "tecnicas": 58, "alcance": 66 },
+      "super_trunfo": false
+    },
+    {
+      "id": "2B", "nome": "Zangief",
+      "atributos": { "forca": 97, "saude": 99, "mobilidade": 18, "tecnicas": 62, "alcance": 71 },
+      "super_trunfo": false
+    },
+    {
+      "id": "2C", "nome": "Dhalsim",
+      "atributos": { "forca": 42, "saude": 48, "mobilidade": 31, "tecnicas": 91, "alcance": 98 },
+      "super_trunfo": false
+    },
+    {
+      "id": "2D", "nome": "E. Honda",
+      "atributos": { "forca": 86, "saude": 88, "mobilidade": 38, "tecnicas": 63, "alcance": 61 },
+      "super_trunfo": false
+    },
+    {
+      "id": "3A", "nome": "Cammy",
+      "atributos": { "forca": 64, "saude": 59, "mobilidade": 96, "tecnicas": 74, "alcance": 62 },
+      "super_trunfo": false
+    },
+    {
+      "id": "3B", "nome": "Dee Jay",
+      "atributos": { "forca": 71, "saude": 74, "mobilidade": 86, "tecnicas": 72, "alcance": 69 },
+      "super_trunfo": false
+    },
+    {
+      "id": "3C", "nome": "Luke",
+      "atributos": { "forca": 79, "saude": 81, "mobilidade": 77, "tecnicas": 76, "alcance": 72 },
+      "super_trunfo": false
+    },
+    {
+      "id": "3D", "nome": "Jamie",
+      "atributos": { "forca": 66, "saude": 68, "mobilidade": 83, "tecnicas": 87, "alcance": 64 },
+      "super_trunfo": false
+    },
+    {
+      "id": "4A", "nome": "Kimberly",
+      "atributos": { "forca": 54, "saude": 58, "mobilidade": 97, "tecnicas": 82, "alcance": 61 },
+      "super_trunfo": false
+    },
+    {
+      "id": "4B", "nome": "Lily",
+      "atributos": { "forca": 62, "saude": 64, "mobilidade": 76, "tecnicas": 69, "alcance": 82 },
+      "super_trunfo": false
+    },
+    {
+      "id": "4C", "nome": "Manon",
+      "atributos": { "forca": 82, "saude": 73, "mobilidade": 62, "tecnicas": 86, "alcance": 77 },
+      "super_trunfo": false
+    },
+    {
+      "id": "4D", "nome": "Marisa",
+      "atributos": { "forca": 98, "saude": 89, "mobilidade": 41, "tecnicas": 58, "alcance": 76 },
+      "super_trunfo": false
+    },
+    {
+      "id": "5A", "nome": "Juri",
+      "atributos": { "forca": 72, "saude": 64, "mobilidade": 91, "tecnicas": 87, "alcance": 71 },
+      "super_trunfo": false
+    },
+    {
+      "id": "5B", "nome": "Sagat",
+      "atributos": { "forca": 89, "saude": 86, "mobilidade": 48, "tecnicas": 84, "alcance": 92 },
+      "super_trunfo": false
+    },
+    {
+      "id": "5C", "nome": "Rashid",
+      "atributos": { "forca": 64, "saude": 69, "mobilidade": 94, "tecnicas": 77, "alcance": 66 },
+      "super_trunfo": false
+    },
+    {
+      "id": "5D", "nome": "Terry",
+      "atributos": { "forca": 76, "saude": 73, "mobilidade": 78, "tecnicas": 81, "alcance": 68 },
+      "super_trunfo": false
+    },
+    {
+      "id": "6A", "nome": "Mai",
+      "atributos": { "forca": 66, "saude": 63, "mobilidade": 92, "tecnicas": 83, "alcance": 77 },
+      "super_trunfo": false
+    },
+    {
+      "id": "6B", "nome": "Akuma",
+      "atributos": { "forca": 96, "saude": 47, "mobilidade": 86, "tecnicas": 98, "alcance": 74 },
+      "super_trunfo": true
+    },
+    {
+      "id": "6C", "nome": "JP",
+      "atributos": { "forca": 68, "saude": 71, "mobilidade": 63, "tecnicas": 97, "alcance": 96 },
+      "super_trunfo": false
+    },
+    {
+      "id": "6D", "nome": "Elena",
+      "atributos": { "forca": 61, "saude": 73, "mobilidade": 88, "tecnicas": 79, "alcance": 86 },
+      "super_trunfo": false
+    },
+    {
+      "id": "7A", "nome": "M. Bison",
+      "atributos": { "forca": 92, "saude": 83, "mobilidade": 76, "tecnicas": 88, "alcance": 73 },
+      "super_trunfo": false
+    },
+    {
+      "id": "7B", "nome": "Ingrid",
+      "atributos": { "forca": 59, "saude": 66, "mobilidade": 81, "tecnicas": 92, "alcance": 71 },
+      "super_trunfo": false
+    },
+    {
+      "id": "7C", "nome": "C. Viper",
+      "atributos": { "forca": 74, "saude": 69, "mobilidade": 86, "tecnicas": 83, "alcance": 72 },
+      "super_trunfo": false
+    },
+    {
+      "id": "7D", "nome": "A.K.I.",
+      "atributos": { "forca": 61, "saude": 63, "mobilidade": 82, "tecnicas": 93, "alcance": 84 },
+      "super_trunfo": false
+    },
+    {
+      "id": "8A", "nome": "Alex",
+      "atributos": { "forca": 87, "saude": 84, "mobilidade": 59, "tecnicas": 71, "alcance": 77 },
+      "super_trunfo": false
+    },
+    {
+      "id": "8B", "nome": "Ed",
+      "atributos": { "forca": 76, "saude": 73, "mobilidade": 82, "tecnicas": 68, "alcance": 72 },
+      "super_trunfo": false
+    },
+    {
+      "id": "8C", "nome": "Dudley",
+      "atributos": { "forca": 81, "saude": 78, "mobilidade": 77, "tecnicas": 87, "alcance": 59 },
+      "super_trunfo": false
+    },
+    {
+      "id": "8D", "nome": "Makoto",
+      "atributos": { "forca": 88, "saude": 69, "mobilidade": 92, "tecnicas": 79, "alcance": 61 },
+      "super_trunfo": false
+    }
+  ]
+}
