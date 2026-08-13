@@ -1,4 +1,4 @@
-with open('/mnt/data/resumo_decisoes_projeto.md', 'w', encoding='utf-8') as f:
+with open('/mnt/data/spec.md', 'w', encoding='utf-8') as f:
     f.write("""# Decisões do Projeto: Mini Framework de Jogos de Cartas
 
 ## Visão Geral do Projeto
@@ -7,7 +7,9 @@ Desenvolvimento de um mini framework orientado a objetos e reutilizável para jo
 ## Jogo Cliente Inicial
 **Super Trunfo**
 *   **Tema:** Street Fighter.
-*   **Atributos das Cartas:** Força (Power), Saúde/Resistência (Health), Mobilidade (Mobility), Técnicas (Techniques), Alcance (Range).
+*   **Elenco:** 32 personagens (foco em Street Fighter 6, além de Dudley e Makoto).
+*   **Super Trunfo:** Akuma.
+*   **Atributos das Cartas:** Força (Power), Saúde/Resistência (Health), Mobilidade (Mobility), Técnicas (Techniques), Alcance (Range). Valores na escala de 1 a 100.
 *   **Armazenamento de Dados:** Os dados das cartas serão consumidos e instanciados a partir de um arquivo de banco de dados JSON (`street_fighter.json`). 
 
 ## Padrões de Projeto (GoF) Selecionados
@@ -27,7 +29,7 @@ Desenvolvimento de um mini framework orientado a objetos e reutilizável para jo
 
 ## Estrutura de Diretórios
 ```text
-/projeto-jogos-cartas
+/super-trunfo-street-fighter
 ├── /src
 │   ├── /framework          (A infraestrutura base e reutilizável)
 │   │   ├── /cartas
@@ -35,11 +37,10 @@ Desenvolvimento de um mini framework orientado a objetos e reutilizável para jo
 │   │   ├── /jogadores
 │   │   └── /partida
 │   │
-│   └── /jogos              (As aplicações clientes)
-│       └── /supertrunfo
-│           ├── /models     
-│           ├── /views      
-│           └── /controllers
+│   └── /game               (A aplicação cliente do Super Trunfo)
+│       ├── /models     
+│       ├── /views      
+│       └── /controllers
 │
-└── /data
-    └── /temas              (street_fighter.json)
+├── /data                   (street_fighter.json)
+└── spec.md                 (Documentação de decisões)
