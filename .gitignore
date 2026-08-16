@@ -1,0 +1,23 @@
+# ── Artefatos gerados (recriados pelos comandos da spec.md/TUTORIAL.md) ──
+
+# Classes compiladas do código e dos testes
+out/
+out-tests/
+*.class
+
+# Javadoc gerado
+docs/
+
+# ── Arquivos de IDE (opcionais, mas mantêm o git status limpo) ──
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Eclipse
+.classpath
+.project
+.settings/

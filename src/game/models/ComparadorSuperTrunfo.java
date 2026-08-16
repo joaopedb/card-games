@@ -2,30 +2,42 @@ package game.models;
 
 import framework.cartas.Carta;
 
+/**
+ * Comparador do Super Trunfo (implementação de {@link EstrategiaComparacao}).
+ * <p>
+ * Aplica a regra especial do jogo: a carta super trunfo vence qualquer outra
+ * independentemente do atributo escolhido. Fora isso, compara os valores
+ * numéricos do atributo informado (comparação dinâmica por mapa de atributos).
+ */
 public class ComparadorSuperTrunfo implements EstrategiaComparacao {
+
+    /**
+     * Cria o comparador.
+     */
+    public ComparadorSuperTrunfo() {
+    }
 
     @Override
     public int comparar(Carta c1, Carta c2, String atributo) {
-        // Transformamos a carta genérica na nossa carta específica para ler os atributos
         CartaSuperTrunfo carta1 = (CartaSuperTrunfo) c1;
         CartaSuperTrunfo carta2 = (CartaSuperTrunfo) c2;
 
-        int valor1 = pegarValorAtributo(carta1, atributo);
-        int valor2 = pegarValorAtributo(carta2, atributo);
+        // Regra especial do Super Trunfo: a carta super trunfo vence qualquer outra,
+        // independentemente do atributo escolhido.
+        if (carta1.isSuperTrunfo() && !carta2.isSuperTrunfo()) {
+            return 1;
+        }
+        if (carta2.isSuperTrunfo() && !carta1.isSuperTrunfo()) {
+            return -1;
+        }
 
-        // Se o valor1 for maior, retorna um número positivo (carta1 ganha). 
+        // Comparação dinâmica: funciona com qualquer atributo presente na carta,
+        // inclusive atributos novos adicionados ao JSON.
+        int valor1 = carta1.getValorAtributo(atributo);
+        int valor2 = carta2.getValorAtributo(atributo);
+
+        // Se o valor1 for maior, retorna um número positivo (carta1 ganha).
         // Se for menor, negativo. Se for igual, retorna zero.
         return Integer.compare(valor1, valor2);
-    }
-
-    private int pegarValorAtributo(CartaSuperTrunfo carta, String atributo) {
-        switch (atributo.toLowerCase()) {
-            case "forca": return carta.getForca();
-            case "saude": return carta.getSaude();
-            case "mobilidade": return carta.getMobilidade();
-            case "tecnicas": return carta.getTecnicas();
-            case "alcance": return carta.getAlcance();
-            default: return 0;
-        }
     }
 }
